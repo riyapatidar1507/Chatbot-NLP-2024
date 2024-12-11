@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "How are you?", "Is anyone there?", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "library_hours",
+      "patterns": ["What are the library hours?", "When does the library open?", "When does the library close?", "What time does the library open?", "Library opening and closing time?"],
+      "responses": ["The library is open from 8 AM to 8 PM on weekdays and 10 AM to 5 PM on weekends."]
+    },
+    {
+      "tag": "book_availability",
+      "patterns": ["Do you have this book?", "Is the book available?", "Can I borrow this book?", "Is this book in stock?", "Is this book available in the library?"],
+      "responses": ["Please provide the book title or ISBN, and I will check its availability."]
+    },
+    {
+      "tag": "borrowing_policies",
+      "patterns": ["What are the borrowing rules?", "How many books can I borrow?", "What is the borrowing duration?", "How long can I keep the books?", "Can I extend my borrowing period?"],
+      "responses": ["You can borrow up to 3 books for a maximum of 2 weeks. The borrowing period can be extended depending on the availability."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Take care", "Farewell"],
+      "responses": ["Goodbye! Have a great day!", "Bye! Take care!"]
+    },
+    {
+      "tag": "book_return",
+      "patterns": ["When do I need to return the book?", "What is the return date?", "How do I return a book?", "Is there a return deadline for borrowed books?", "How do I know when to return my book?"],
+      "responses": ["You need to return the book within 2 weeks from the borrowing date. A reminder will be sent to you a day before the due date."]
+    },
+    {
+      "tag": "library_services",
+      "patterns": ["What services does the library provide?", "What are the library services?", "Do you offer any online library services?", "Can I access e-books?", "Is there a photocopy service available?"],
+      "responses": ["The library provides various services like borrowing books, online catalog access, e-books, study rooms, and photocopy services."]
+    },
+    {
+      "tag": "membership",
+      "patterns": ["How can I get a library membership?", "What is the process for joining the library?", "Is there a fee for membership?", "How do I register for library access?"],
+      "responses": ["You can register for a library membership at the front desk or online. Membership is free for students and staff, and there is a small fee for non-students."]
+    },
+    {
+      "tag": "overdue_fines",
+      "patterns": ["Do I need to pay a fine for overdue books?", "What is the overdue fine?", "How much is the fine for late book returns?", "How can I pay the overdue fine?", "I returned the book late, do I have a fine?"],
+      "responses": ["Yes, there is a fine of $1 per day for overdue books. You can pay the fine at the library or through the online payment system."]
+    },
+    {
+      "tag": "reserve_books",
+      "patterns": ["Can I reserve a book?", "How can I reserve a book?", "Is it possible to reserve a book?", "Can I put a book on hold?", "How do I reserve books for future borrowing?"],
+      "responses": ["Yes, you can reserve books online or at the library counter. Once available, you will be notified for pickup."]
+    },
+    {
+      "tag": "library_location",
+      "patterns": ["Where is the library located?", "Where can I find the library?", "Can you tell me the address of the library?", "Where is the library in the campus?", "How do I reach the library?"],
+      "responses": ["The library is located on the first floor of the main building, near the administration office."]
+    },
+    {
+      "tag": "book_recommendations",
+      "patterns": ["Can you recommend a good book?", "What are the best books in the library?", "Suggest me some books to read", "What is a popular book at the library?", "Any book recommendations?"],
+      "responses": ["I recommend 'To Kill a Mockingbird', '1984', and 'The Great Gatsby'. You can also check out our latest collection in the new arrivals section."]
+    },
+    {
+      "tag": "computer_access",
+      "patterns": ["Do you have computers available?", "Can I use a computer in the library?", "Is there a computer lab in the library?", "How can I access a computer in the library?", "Do I need to book a computer in advance?"],
+      "responses": ["Yes, the library has computers available for student use. You can access them with your library membership ID. No prior booking is required."]
+    },
+    {
+      "tag": "study_rooms",
+      "patterns": ["Are there study rooms in the library?", "How can I book a study room?", "Can I reserve a study room?", "Do I need to book a study room in advance?", "Are study rooms available for group study?"],
+      "responses": ["Yes, there are study rooms available. You can book them at the library desk or online. Group study rooms are also available for bookings."]
+    },
+    {
+      "tag": "chatbot_capabilities",
+      "patterns": ["What can you do?", "What are your capabilities?", "How can you assist me?", "What can I ask you?", "What do you know?"],
+      "responses": ["I can help you with library hours, book availability, borrowing policies, membership information, fines, and much more! Just ask me anything related to the library."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "Help me with my query", "Can you answer my question?", "I need support"],
+      "responses": ["Of course! How can I assist you? Please let me know what you need help with."]
+    }
+  ]
+}
